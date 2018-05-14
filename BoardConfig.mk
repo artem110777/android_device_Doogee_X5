@@ -39,6 +39,10 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 #TARGET_PREBUILT_KERNEL := device/Doogee/X5/kernel
 #BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x0e000000
 
+#Sours_Kernel
+TARGET_KERNEL_SOURCE := kernel/DOOGEE/X5
+TARGET_KERNEL_CONFIG := X5_defconfig
+
 BOARD_CUSTOM_BOOTIMG := true
 
 TARGET_KMODULES := true
