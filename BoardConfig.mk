@@ -94,9 +94,9 @@ BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 # Sensors
 TARGET_NO_SENSOR_PERMISSION_CHECK := true
 
-# CWM
+#CWM
 TARGET_RECOVERY_FSTAB := device/Doogee/X5/rootdir/root/recovery.fstab
-TARGET_PREBUILT_RECOVERY_KERNEL := device/Doogee/X5/kernel
+#TARGET_PREBUILT_RECOVERY_KERNEL := device/Doogee/X5/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # TWRP stuff
